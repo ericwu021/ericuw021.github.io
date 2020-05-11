@@ -25,11 +25,22 @@
 </table>
   <hr size="1" width="800px" align="left" color="grey">
   
-	<div>
+	<table> 
+		<td>
+	  
 		<div>
-			<video autoplay playsinline muted id="wc" width="224" height="224"></video>
+			<div>
+				<video autoplay playsinline muted id="wc" width="224" height="224"></video>
+			</div>
 		</div>
-	</div>
+		</td>
+		<td> Prediction: </td>
+		<td>
+		
+			<div id="prediction"></div>
+		
+		</td>
+	</table>
 	
 	<hr size="1" width="800px" align="left" color="grey">
 	
@@ -49,7 +60,6 @@
 	
 	<button type="button" id="startPredicting" onclick="startPredicting()" >Start Predicting</button>
 	<button type="button" id="stopPredicting" onclick="stopPredicting()" >Stop Predicting</button>
-	<div id="prediction"></div>
 	
 	<hr size="1" width="800px" align="left" color="grey">
 </body>
